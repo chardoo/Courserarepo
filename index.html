@@ -1,0 +1,45 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Document</title>
+    <script src="angular.min.js">  </script>
+    <script src="app.js"></script>
+</head>
+<body ng-app="myfirstApp">
+    <h1>my calculator</h1>
+    <div ng-controller="myfirstcontroller">
+        <div>
+            <input type="text" ng-model="name" ng-keyup="displayvalue();"/>  
+            <input type="button"  value="check if too much"> 
+        </div>
+
+        <div>
+            the value of {{name}} is : {{totalvalue}}
+        </div>
+    </div>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Document</title>
+    <script src="angular.min.js">  </script>
+    <script src="app.js"></script>
+</head>
+<body ng-app="myfirstApp">
+    <h1>Too much </h1>
+    <div ng-controller="myfirstcontroller">
+        <div>
+            <input type="text" ng-model="food"/>  
+            <input type="button" ng-click="myfunction();"  value="check if too much"> 
+        </div>
+
+        <div>
+            {{ displaymessage  }}
+        </div>
+    </div>
+</body>
+</html>
